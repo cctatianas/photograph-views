@@ -1,0 +1,98 @@
+@import "reset";
+@import "variables";
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+@import 'http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css';
+
+.container{
+	border: #009688 solid 100px;
+	width: 1000px;
+	margin: auto;
+	display: flex;
+    flex-direction: column;
+}
+
+.imagen{
+	background-image: url('../images/hojas.png');
+	background-size: 100%;
+	min-height: 500px;
+	color: white;
+	.ion-ios-download-outline{
+		font-size: 50px;
+		border-radius: 50%;
+		background: cadetblue;
+    	width: 50px;
+    	text-align: center;
+    	top: 420px;
+    	left: 920px;
+    	position: relative;
+	}
+	.ion-leaf{
+		font-size: 20px;
+	    background:rgba(105, 200, 44,0.5);
+	    width: 120px;
+	    font-family: 'montserrat';
+	    position: relative;
+	    right: 50px;
+	    display: flex;
+	    justify-content: space-between;
+	    padding: 5px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+ 	}
+}
+
+.detailcontent{
+	display: flex;
+	flex-direction: row;
+	font-family:'Montserrat';
+	.details{
+		background: #4CAF50;
+		height: 200px;
+		width: 200px;
+		display: inline-block;
+		color:white;
+		font-size: 25px;
+		text-align: center;
+		.ion-ios-list-outline{
+			font-size: 100px;
+			padding-top: 30px;
+		}
+	}
+	.info{
+		background: white;
+	    height: 200px;
+	    width: 600px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: space-around;
+	    color:gray;
+	    font-size: 15px;
+	    padding-left: 20px;
+	    h3{
+			font-weight: bold;
+		}
+		p{
+			font-weight: normal;
+		}
+	}
+	.rating{
+		display:flex;
+		flex-direction: column;
+		color:gray;
+		font-family: 'montserrat';
+		justify-content: space-around;
+		text-align: center;
+		.stars{
+			display: flex;
+			flex-direction: row;
+			color: cadetblue;
+			font-size: 30px;
+		}
+		h3{
+			font-size: 40px;
+		}
+		h4{
+			font-size: 20px;
+		}
+	}
+}
